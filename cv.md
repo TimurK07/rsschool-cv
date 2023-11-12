@@ -2,7 +2,7 @@
 ## Профессия: Frontend разработчик
 
 ### Навыки:
-- HTML5, CSS3
+- HTML5, CSS3, SCSS
 - JavaScript
 - React
 - Верстка адаптивная
