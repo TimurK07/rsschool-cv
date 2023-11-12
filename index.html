@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Я Калиев Тимур</h1>
+        <p>Начинающий web-разработчик</p>
+        <div class="social">
+            <a href="https://www.youtube.com/channel/UCol5u8THyPi0OSWz8G9u30g" target="_blank">
+                <img src="img/youtube.jpg" alt="Youtube">
+            </a>
+            <a href="http://tiktok.com/@kaliev00107" target="_blank">
+                <img src="img/tik tok.webp" alt="Tik Tok">
+            </a>
+            <a href="https://instagram.com/kalievv001?igshid=ZDdkNTZiNTM=" target="_blank">
+                <img src="img/Instargam.svg" alt="Instargam">
+            </a>
+        </div>
+    </header>
+
+        <div>
+            <div class="card">
+                <h2>Обо мне</h2>
+                <div class="about_me">
+                    <img src="img/photo_me1.jpg" id="photo" onmouseover="onOver()" onmouseout="onOut()">
+
+                <p class="descr">
+                    Школьник, занимаюсь самообучением,и развиваюсь в сфере веб-разработки, изучаю новые технологии. Читаю книги, очень добрый и интересный человек,легко нахожу общий язык с разными людьми. Заканчиваю 9 класс.
+                </p>
+            </div>
+        </div>
+
+            <div>
+                
+                
+                <div class="card">
+                    <h2>Проекты</h2>
+                    <div class="portfolios"> 
+                        <div class="portfolio">
+                        <img src="./img/1.jpg">
+                    <p class="title">Moonex's Team</p>
+                    <p class="date">Июнь 2020</p>
+                </div>
+                <div class="portfolio">
+                    <img src="./img/2.jpg">
+                    <p class="title">Teckzone</p>
+                    <p class="date">Декабрь 2021</p>
+                </div>
+                <div class="portfolio">
+                    <img src="./img/3.jpg">
+                    <p class="title">Ecom Elite</p>
+                    <p class="date">Февраль 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>©Все права защищены.</p>
+        </footer>
+</body>
+<script>
+    function onOver()
+    {
+        document.getElementById("photo").src = './img/photo_me.jpg'
+    }
+    function onOut()
+    {
+        document.getElementById("photo").src = './img/photo_me1.jpg'
+    }
+
+</script>
+</html>
